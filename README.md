@@ -8,6 +8,13 @@ For example:  http://localhost:30080/?title=United_States shows content of http
 
 
 ## Instructions
+- Clone the repo and `cd` to the directory.
+```
+git clone https://github.com/devopsprosiva/wiki_server.git
+
+cd wiki_server
+```
+
 - Build docker image
 ```
 docker build -t wiki_server .
